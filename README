@@ -1,0 +1,27 @@
+🧭 Verificação rápida
+
+Se tudo estiver ok, o terminal mostrará algo como:
+
+ * Running on http://127.0.0.1:5000
+
+
+E o GET / deve retornar:
+
+{
+  "status": "API Flask SQLite rodando ✅"
+
+
+# 1. Criar e ativar ambiente virtual (opcional, mas recomendável)
+
+python -m venv venv
+source venv/bin/activate    # macOS/Linux
+venv\Scripts\activate       # Windows
+
+# 2. Instalar dependências
+
+pip install -r requirements.txt
+
+# 3. Rodar servidor
+
+python app.py
+}
